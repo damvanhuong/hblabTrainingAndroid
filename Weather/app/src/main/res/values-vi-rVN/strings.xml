@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thời tiết</string>
+    <string name="wind">Gió</string>
+    <string name="temperature">Nhiệt độ</string>
+    <string name="pressure">Áp suất</string>
+    <string name="humidity">Độ ẩm</string>
+    <string name="today">Hôm nay</string>
+    <string name="view_week">Xem tuần này</string>
+    <string name="share">Chia sẻ với Facebook</string>
+    <string name="more">Xem thêm</string>
+    <string name="detail">Chi tiết</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="vietnam">Việt Nam</string>
+    <string name="chinese">Trung Quốc</string>
+    <string name="japan">Nhật Bản</string>
+    <string name="korean">Hàn Quốc</string>
+    <string name="england">Anh</string>
+    <string name="usa">Mỹ</string>
+    <string name="germany">Đức</string>
+    <string name="france">Pháp</string>
+    <string name="back_again">Nhấn BACK một lần nữa để thoát</string>
+    <string name="wind_speed">Vận tốc gió (m/s)</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="temp_label">Nhiệt độ (°C)</string>
+    <string name="warning">Cảnh báo</string>
+</resources>

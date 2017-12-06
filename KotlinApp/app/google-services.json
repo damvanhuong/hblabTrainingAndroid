@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "832598881673",
+    "firebase_url": "https://foodmaking-2cafa.firebaseio.com",
+    "project_id": "foodmaking-2cafa",
+    "storage_bucket": "foodmaking-2cafa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832598881673:android:ea349cefcde1ab7b",
+        "android_client_info": {
+          "package_name": "com.esp.foodmaking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832598881673-tj3ar5flmpnh5h31a6867dvqqfiqh0pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFKSv6tDTHaQGwkbJPDELLvxz9QsBJtGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

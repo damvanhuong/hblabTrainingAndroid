@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.esp.foodmaking.FoodDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/main"
+            app:title="Recipe"
+            app:titleTextAppearance="@style/TextFont"
+            app:titleTextColor="@color/white"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            android:elevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_share_arrow"
+                    android:layout_margin="15dp"
+                    android:onClick="shareFacebook" />
+                <com.facebook.share.widget.ShareButton
+                    android:id="@+id/shareButton"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <com.ecloud.pulltozoomview.PullToZoomScrollViewEx
+            android:id="@+id/pullToZoom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_view"
+                android:text="View Page"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:onClick="viewPage"
+                android:fontFamily="@font/montserrat_regular"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_view"
+                android:layout_margin="5dp"
+                android:text="View publisher"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:onClick="viewPublisher"
+                android:fontFamily="@font/montserrat_regular"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>

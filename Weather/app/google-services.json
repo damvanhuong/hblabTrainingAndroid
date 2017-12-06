@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "308364741432",
+    "firebase_url": "https://fir-tutorial-4038e.firebaseio.com",
+    "project_id": "fir-tutorial-4038e",
+    "storage_bucket": "fir-tutorial-4038e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308364741432:android:3c6d18313cb67d70",
+        "android_client_info": {
+          "package_name": "com.esp.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308364741432-5i43vts8qnn695sppk58b69u1jcg518u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esp.weather",
+            "certificate_hash": "31971288e18a77d551c28987c431879041158a5e"
+          }
+        },
+        {
+          "client_id": "308364741432-lffo4fjhur97ifkuqnm71vpbm2pm4tri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_f5PecLLFz3JhqUgHXQIBel5VgWzt_EY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308364741432-lffo4fjhur97ifkuqnm71vpbm2pm4tri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
